@@ -16,7 +16,7 @@ class CalculatorTest {
     /*
      * testCalc() test method
      */
-    @Test
+    @Test // test cases are not generated //
     void testCalc() {
         double first = 3;
         String second = "5";
@@ -30,7 +30,8 @@ class CalculatorTest {
             Assertions.assertEquals(243, calculator.calc(first, second, '^'));
         } catch (Exception e) {
             e.printStackTrace();
-        }
+        }//trying to catch the errors
+
 
     }
 }
